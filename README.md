@@ -1,7 +1,7 @@
 # indesign-scripts
 InDesign Scripts made to make my life easier.
 ## Background
-I've worked in InDesign since 2006 with InDesign CS. It's been a long time coming that I build some scripts to add features I wish were found in the app. All of these scripts were generated with help from an LLM.
+I've worked in InDesign since 2006 with InDesign Creative Suite. It has been a long time coming that I author scripts to add features I wish were found in InDesign. All of these scripts were generated with help from an LLM.
 ## Revert All Open Documents
 I find this helpful when testing scripts across multiple open documents. I would run a script, see how it worked, then revert all open documents to test again.
 This script does the following:
