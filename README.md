@@ -72,3 +72,10 @@ This script does a few things:
    - For each Parent Spread, check if its name is in the list of used Parent Spread names.
    - If not found, deletes the Parent Spread.
 9. Handle No Open Files: If no files are open, it informs the user that there are no files to process.
+## Link Audit
+This script analyzes links in all currently open Adobe InDesign documents.
+- **Checks for Open Documents**: If no documents are open, it alerts the user.
+- **Collects Link Information**: For each document, it gathers data on all links, including how many times each link appears and the pages or master spreads where they are used.
+- **Creates a Report**: Compiles the link information into a CSV file, which can be opened in spreadsheet programs like Excel. The report includes the link's file path, appearance count, and usage pages.
+- **Saves the Report**: The CSV file is saved to the desktop as "link_audit_results.csv".
+- **Notifies the User**: Provides a summary of the total number of links found and the count of unique links via a pop-up message.
